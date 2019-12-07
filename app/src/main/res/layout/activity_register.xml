@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gazon"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:id="@+id/creer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:text="Crée un compte"
+        android:textSize="36sp"
+        android:shadowColor="#000"
+        android:shadowDx="1"
+        android:shadowDy="10"
+        android:shadowRadius="10"
+        android:textStyle="bold"
+        ></TextView>
+
+
+
+
+        <EditText
+            android:id="@+id/editfirstname"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:ems="8"
+            android:hint="Nom"
+            >
+
+            <requestFocus/>
+        </EditText>
+
+
+        <EditText
+            android:id="@+id/editlastname"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:ems="8"
+            android:hint="Prénom"
+            />
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <RadioButton
+            android:id="@+id/radio_homme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:width="0dp"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/Homme"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radio_femme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:width="0dp"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/Femme"
+            android:textSize="20sp" />
+    </RadioGroup>
+
+        <EditText
+            android:id="@+id/editmobileno"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:ems="8"
+            android:inputType="date"
+            android:hint="Date de naissance"
+            />
+
+    <EditText
+        android:id="@+id/editemail"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:ems="8"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        />
+
+        <EditText
+            android:id="@+id/editpassword"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:ems="8"
+            android:inputType="textPassword"
+            android:hint="Mot de passe"
+            />
+
+
+
+        <EditText
+            android:id="@+id/editconformpassword"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:ems="8"
+            android:inputType="textPassword"
+            android:hint="Confirmé mot de passe"
+            />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+
+        >
+
+        <Button
+            android:id="@+id/btnsave"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="Valider"
+            android:background="@color/button_blue"
+
+            />
+
+        <Button
+            android:id="@+id/btncancel"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Annuler"
+            android:background="@color/button_white"
+            />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/idreservation"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="128dp"
+        android:layout_marginEnd="111dp"
+        android:layout_marginBottom="213dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="ID reservation  NOTE(en ajoutant+1 commencer par 1)"
+        android:textSize="8sp" />
+
+    <TextView
+        android:id="@+id/prix"
+        android:layout_width="210dp"
+        android:layout_height="66dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="115dp"
+        android:layout_marginEnd="86dp"
+        android:layout_marginBottom="100dp"
+        android:text="50 Dt" />
+
+    <TextView
+        android:id="@+id/stade"
+        android:layout_width="47dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="184dp"
+        android:layout_marginBottom="442dp"
+        android:text="Stade de Rades" />
+
+    <EditText
+        android:id="@+id/datematch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="109dp"
+        android:layout_marginEnd="89dp"
+        android:layout_marginBottom="160dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="datematch" />
+
+    <EditText
+        android:id="@+id/ncin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="116dp"
+        android:layout_marginEnd="82dp"
+        android:layout_marginBottom="100dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="ncin" />
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.DSI32G4.MyLab.ui.gallery.GalleryFragment"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="706dp"
+        android:layout_marginEnd="292dp"
+        android:layout_marginBottom="6dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="69dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="81dp"
+        app:srcCompat="@drawable/est" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="83dp"
+        android:layout_height="69dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="578dp"
+        android:layout_toStartOf="@+id/imageView3"
+        android:layout_toEndOf="@+id/imageView2"
+        android:background="#00ECA1A1"
+        android:text="VS"
+        android:textSize="36sp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="81dp"
+        android:layout_height="73dp"
+        android:layout_above="@+id/equipe2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="87dp"
+        android:layout_marginEnd="67dp"
+        android:layout_marginBottom="62dp"
+        app:srcCompat="@drawable/club" />
+
+    <TextView
+        android:id="@+id/equipe2"
+        android:layout_width="47dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="457dp"
+        android:text="Club Africain" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="154dp"
+        android:layout_height="81dp"
+        android:layout_above="@+id/datematch"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="124dp"
+        android:layout_marginBottom="79dp"
+        app:srcCompat="@drawable/rades" />
+
+    <TextView
+        android:id="@+id/equipe1"
+        android:layout_width="43dp"
+        android:layout_height="53dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="91dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="456dp"
+        android:layout_toStartOf="@+id/equipe2"
+        android:text="Esperance De Tunis" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="172dp"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="108dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="43dp"
+        android:text="Reserver" />
+
+    <TextView
+        android:id="@+id/text_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="176dp"
+        android:layout_marginEnd="176dp"
+        android:text="Reservili" />
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">RESERVILI</string>
+    <string name="name_app">RESERVILI</string>
+    <string name="Homme">Homme</string>
+    <string name="Femme">Femme</string>
+    <string name="createAccount"><u>Créer un Compte</u></string>
+    <string name="passeOublie"><u><b>Mot de Passe Oublié?</b></u></string>
+    <string name="title_activity_accueil">Accueil</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">raptunisia10@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Accueil</string>
+    <string name="menu_gallery">GALERIE</string>
+    <string name="menu_slideshow">Listes des reservations</string>
+    <string name="menu_tools">Centres</string>
+    <string name="menu_actuality">Actualité</string>
+    <string name="menu_share">Mon Compte</string>
+    <string name="menu_send">Se déconnecter</string>
+</resources>
