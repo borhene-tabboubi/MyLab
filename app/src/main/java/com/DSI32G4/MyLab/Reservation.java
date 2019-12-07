@@ -2,13 +2,13 @@ package com.DSI32G4.MyLab;
 
 
 public class Reservation{
-   Integer id_reservation;
-        String equipe1;
-        String equipe2;
-        String     stade;
-        String  datematch;
-    Integer       ncin;
-  Integer prix;
+  private Integer id_reservation;
+    private      String equipe1;
+    private String equipe2;
+    private String     stade;
+    private String  datematch;
+    private Integer       ncin;
+    private  Integer prix;
 
     public Reservation() {
     }
