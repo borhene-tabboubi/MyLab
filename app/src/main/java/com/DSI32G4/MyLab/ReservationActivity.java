@@ -28,7 +28,7 @@ public class ReservationActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+        setContentView(R.layout.fragment_accueil);
         id_reservation = (EditText) findViewById(R.id.idreservation);
         ncin = (EditText) findViewById(R.id.ncin);
         button = (Button) findViewById(R.id.button);
