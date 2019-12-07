@@ -12,12 +12,12 @@
         android:layout_above="@+id/button"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="128dp"
-        android:layout_marginEnd="111dp"
-        android:layout_marginBottom="213dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginEnd="113dp"
+        android:layout_marginBottom="300dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="ID reservation  NOTE(en ajoutant+1 commencer par 1)"
+        android:hint="ID reservation  NOTE(en ajoutant+1 commencer par 1)"
         android:textSize="8sp" />
 
     <TextView
@@ -54,7 +54,7 @@
         android:layout_marginBottom="160dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="datematch" />
+        android:hint="datematch" />
 
     <EditText
         android:id="@+id/ncin"
@@ -68,58 +68,40 @@
         android:layout_marginBottom="100dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="ncin" />
+        android:hint="ncin" />
 
     <fragment
         android:id="@+id/fragment"
         android:name="com.DSI32G4.MyLab.ui.gallery.GalleryFragment"
-        android:layout_width="105dp"
-        android:layout_height="wrap_content"
+        android:layout_width="309dp"
+        android:layout_height="80dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="14dp"
-        android:layout_marginTop="706dp"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="784dp"
         android:layout_marginEnd="292dp"
         android:layout_marginBottom="6dp" />
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="69dp"
-        android:layout_height="80dp"
+        android:layout_width="122dp"
+        android:layout_height="171dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="49dp"
-        android:layout_marginTop="81dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="53dp"
         app:srcCompat="@drawable/est" />
-
-    <TextView
-        android:id="@+id/textView8"
-        android:layout_width="83dp"
-        android:layout_height="69dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="84dp"
-        android:layout_marginEnd="42dp"
-        android:layout_marginBottom="578dp"
-        android:layout_toStartOf="@+id/imageView3"
-        android:layout_toEndOf="@+id/imageView2"
-        android:background="#00ECA1A1"
-        android:text="VS"
-        android:textSize="36sp" />
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="81dp"
-        android:layout_height="73dp"
-        android:layout_above="@+id/equipe2"
+        android:layout_width="94dp"
+        android:layout_height="189dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="87dp"
-        android:layout_marginEnd="67dp"
-        android:layout_marginBottom="62dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="105dp"
         app:srcCompat="@drawable/club" />
 
     <TextView
@@ -128,8 +110,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="80dp"
-        android:layout_marginBottom="457dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="560dp"
         android:text="Club Africain" />
 
     <ImageView
@@ -138,21 +120,19 @@
         android:layout_height="81dp"
         android:layout_above="@+id/datematch"
         android:layout_alignParentEnd="true"
-        android:layout_marginEnd="124dp"
-        android:layout_marginBottom="79dp"
+        android:layout_marginEnd="290dp"
+        android:layout_marginBottom="273dp"
         app:srcCompat="@drawable/rades" />
 
     <TextView
         android:id="@+id/equipe1"
-        android:layout_width="43dp"
+        android:layout_width="196dp"
         android:layout_height="53dp"
         android:layout_below="@+id/imageView2"
         android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="91dp"
-        android:layout_marginTop="64dp"
-        android:layout_marginEnd="150dp"
-        android:layout_marginBottom="456dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="350dp"
         android:layout_toStartOf="@+id/equipe2"
         android:text="Esperance De Tunis" />
 
@@ -170,12 +150,14 @@
 
     <TextView
         android:id="@+id/text_home"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="149dp"
+        android:layout_height="63dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="176dp"
-        android:layout_marginEnd="176dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="277dp"
+        android:layout_marginEnd="281dp"
+        android:layout_marginBottom="806dp"
         android:text="Reservili" />
 
 </RelativeLayout>
