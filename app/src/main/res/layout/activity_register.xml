@@ -133,7 +133,7 @@
             android:layout_weight="1"
             android:layout_height="match_parent"
             android:text="Valider"
-            android:background="@color/button_blue"
+            android:background="@color/button_white"
 
             />
 
