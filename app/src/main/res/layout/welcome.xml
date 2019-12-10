@@ -11,21 +11,10 @@
 
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:text="Bienvenue sur\nRESERVILI"
-        android:textSize="36sp"
-        android:textStyle="bold"
-        android:gravity="center_horizontal"
-        android:textColor="@color/black"
-        ></TextView>
-
-    <TextView
         android:id="@+id/textView6"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="@color/black"
-        android:text="Le premier site de reservation des matchs en ligne \nCopyright 2019 RESERVILI " />
+        android:layout_height="match_parent"
+        android:text="Le premier site de reservation des matchs en ligne \nCopyright 2019 RESERVILI "
+        android:textColor="@color/black" />
 
 </LinearLayout>

@@ -7,41 +7,41 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.DSI32G4.MyLab.ui.home.HomeFragment"
+        android:name="com.dsi32g12.ReserviliApp.ui.home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_accueil" />
 
     <fragment
         android:id="@+id/nav_gallery"
-        android:name="com.DSI32G4.MyLab.ui.gallery.GalleryFragment"
+        android:name="com.dsi32g12.ReserviliApp.ui.gallery.GalleryFragment"
         android:label="@string/menu_gallery"
         tools:layout="@layout/fragment_gallery" />
     <fragment
         android:id="@+id/nav_actuality"
-        android:name="com.DSI32G4.MyLab.ui.gallery.GalleryFragment"
+        android:name="com.dsi32g12.ReserviliApp.ui.gallery.GalleryFragment"
         android:label="@string/menu_actuality"
         tools:layout="@layout/fragment_actuality" />
     <fragment
         android:id="@+id/nav_slideshow"
-        android:name="com.DSI32G4.MyLab.ui.slideshow.SlideshowFragment"
+        android:name="com.dsi32g12.ReserviliApp.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
 
     <fragment
         android:id="@+id/nav_tools"
-        android:name="com.DSI32G4.MyLab.ui.tools.ToolsFragment"
+        android:name="com.dsi32g12.ReserviliApp.ui.tools.ToolsFragment"
         android:label="@string/menu_tools"
         tools:layout="@layout/fragment_tools" />
 
     <fragment
         android:id="@+id/nav_share"
-        android:name="com.DSI32G4.MyLab.ui.share.ShareFragment"
+        android:name="com.dsi32g12.ReserviliApp.ui.share.ShareFragment"
         android:label="@string/menu_share"
         tools:layout="@layout/fragment_share" />
 
     <fragment
         android:id="@+id/nav_send"
-        android:name="com.DSI32G4.MyLab.ui.send.SendFragment"
+        android:name="com.dsi32g12.ReserviliApp.ui.send.SendFragment"
         android:label="@string/menu_send"
         tools:layout="@layout/fragment_send" />
 </navigation>
